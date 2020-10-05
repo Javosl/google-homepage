@@ -1,0 +1,138 @@
+
+.ulhead {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.lihead {
+    float: right;
+}
+.lihead a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 9px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+li a:hover{
+    opacity: 80%;
+    text-decoration: underline;
+
+}
+
+img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 7em;
+   width: auto;
+
+}
+input[type=text]{
+    height: 3em;
+    width: 40em;
+    border: solid;
+    border-color: rgb(196, 190, 190);
+    border-radius: 40px;
+    border-width: thin;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    background-color: white;
+    background-image: url("https://img2.freepng.es/20180417/zdw/kisspng-computer-icons-magnifying-glass-android-clip-art-google-plus-5ad663b503cd82.8649922515239996690156.jpg");
+    background-repeat: no-repeat;
+    background-size: 3%;
+    background-position-x: 10px;
+    background-position-y: 12px;
+
+    padding-left: 40px;
+}
+input[type=text]:focus{
+    outline: none;
+    
+}
+input[type=text]:hover{
+    box-shadow: 0px 1px 3px 1px rgb(196, 190, 190);
+}
+.botoncon{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 200px;
+    width: 345px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    
+    
+}
+button{
+    background-color: #f0eeee;
+    border: none;
+    display: block;
+    float: left;
+    border-radius: 2px;
+    color: #726c6c;
+    height: 35px;
+    width: 160px;
+    font-size: 14px;
+    
+   }
+button:hover{
+    box-shadow: 0px 0px 2px 0.3px #726c6c;
+    color: black;
+}
+
+button:after{
+    border: none;
+    box-shadow: 0px 0px 2px 0.3px blue;
+}
+
+.ulfoot{
+position: fixed;
+bottom: 40px;
+width: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #dedede;
+border: 1px solid #acabab;
+}
+.ulfoot2{
+    background-color: #dedede;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #acabab;
+    }
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: #726c6c;
+    text-align: center;
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li a:hover{
+    opacity: 100%;
+    text-decoration: underline;
+
+}
+
+
+    
